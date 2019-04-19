@@ -92,7 +92,7 @@ public class RegisterActivity extends Activity implements SurfaceHolder.Callback
 		//initial data.
 		if (!getIntentData(getIntent().getExtras())) {
 			Log.e(TAG, "getIntentData fail!");
-			this.finish() ;
+			this.finish();
 		}
 
 		mRegisterViewAdapter = new RegisterViewAdapter(this);
